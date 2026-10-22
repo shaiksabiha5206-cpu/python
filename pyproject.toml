@@ -1,0 +1,10 @@
+[project]
+name="my-ai-app"
+version="0.1.0"
+dependencies=[
+    "python_dotenv",
+    "fastapi",
+    "pydantic
+]
+[project.optional-dependencies]
+dev=["pytest"]
