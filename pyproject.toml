@@ -1,10 +1,13 @@
 [project]
 name="my-ai-app"
 version="0.1.0"
+description="my first ai app"
+requires-python =">=3.10"
 dependencies=[
     "python_dotenv",
-    "fastapi",
-    "pydantic
 ]
 [project.optional-dependencies]
 dev=["pytest"]
+[build-system]
+requires=["setuptools"]
+build-backend="setuptools.build_meta"

@@ -3,7 +3,18 @@
 #.gitginore file means to ignore our files 
 #keep .env file in that our apis then keep it in .gitignore file
 #to need to know our api we must have to install pip install python-dotenv
-
+#create a reposi in github
+#git init
+#git status
+#git add.
+#git commit -m "first"
+#git branch -M your branch name
+#git remote add origin "link of ripo"
+#git push -u origin your branch name
+#packaging how to install your code run with pip install -e .
+#pytest means check your code
+#to install both pytest,dotenv pip install -e ".[dev]"
+#to run pytest -v
 #typing
 #age:int=21
 #college:str="srit"
@@ -34,4 +45,7 @@ from dotenv import load_dotenv
 load_dotenv()
 password=os.getenv("password")
 api_key=os.getenv("api_key")
-print(f"hello{password} {api_key}")
+#print(f"hello{password} {api_key}")
+def valid_password(pwd:str) -> bool:
+    #return len(pwd) >=8
+     return True
